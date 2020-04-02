@@ -1,0 +1,45 @@
+import time
+import datetime
+
+a=input("Enter your card number:")
+time.sleep(1.35)
+if a=="20147":
+    tday=datetime.date.today()
+    exp=datetime.date(2019,3,1)
+    if tday>exp :
+        print("Your card is invalid")
+        
+    else :
+        print("Your card is valid")
+        
+if a=="54785":
+    
+    exp=datetime.date(2020,3,1)
+    if tday>exp :
+        print("Your card is invalid")
+        
+    else :
+        print("Your card is valid")
+       
+        
+if a=="85742" :
+    now=datetime.datetime.now()
+    exp=datetime.datetime(2020,4,1,17,0,0,00)
+    if now>exp :
+        print("Your card is invalid")
+        
+    else :
+        print("Your card is valid")
+       
+
+if a=="54654":
+    tday=datetime.date.today()
+    exp=datetime.date(2020,4,1)
+    if tday>exp :
+        print("Your card is invalid")
+        
+    else :
+        print("Your card is valid")
+        
+
+
